@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>a{text-decoration: none;}</style>
+</head>
+<body>
+  
+    <!--Pantalla de carga-->
+   <div class="preloader">
+    <div class="spiner">
+        <div class="spiner">
+            <div class="spiner">
+                <div class="spiner">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   </div>
+    <!-- menu / encabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Isaac</a>
+            </div>
+            <nav class='otro' id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionr()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionr()">SOBREMI</a></li>
+                    <li><a href="#skills" onclick="seleccionr()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionr()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionr()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class='bx bx-menu-alt-left bx-md'></i>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/isaac.png" alt="">
+            </div>
+            <h1>Isaac</h1>
+            <h2>Diseñador gráfico, community manager estudiante de contaduría y programador web
+            </h2>
+            <div class="redes">
+                <ul>
+                    <li style="--1:#71fd6c;--j:#2afd4d;">
+                     <span class="icon"><i class='bx bxl-whatsapp'></i></span>
+                     <span class="titulo"><a href="https://wa.me/584129783677" target="_blank" style="color: #ffffff;">Whatsapp</a></span>
+                    </li>
+                    <li style="--1:#f28f56;--j:#f3b711;">
+                       <span class="icon"><i class='bx bxl-gmail'></i></span>
+                       <span class="titulo"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" style="color: #ffffff;">Gmail</a></span>
+                    </li> 
+                    <li style="--1:#be6b94;--j:#b81034;">
+                       <span class="icon"><i class='bx bxl-instagram'></i></a></span>
+                       <span class="titulo"><a href="https://www.instagram.com/_isaacblog/" target="_blank" style="color: #ffffff;">Instagram</a></span>
+                    </li>
+                    <li style="--1:#72eaff;--j:#1ab7d3;">
+                       <span class="icon"><i class='bx bxl-twitter' ></i></span>
+                       <span class="titulo"><a href="https://twitter.com/_isaac_design" target="_blank" style="color: #ffffff;">Twitter</a></span>
+                    </li> 
+                    <li style="--1:#7274f8;--j:#1613d8;">
+                       <span class="icon"><i class='bx bxl-behance'></i></span>
+                       <span class="titulo"><a href="https://www.behance.net/isaaccontreras7" target="_blank" style="color: #ffffff;">Behance</a></span>
+                    </li>       
+                  </ul>
+                <!--<a href="#"><i class='bx bxl-whatsapp ' ></i></i></a>
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://www.instagram.com/_isaacblog/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.behance.net/isaaccontreras7" target="_blank"><i class='bx bxl-behance' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>-->
+            </div>
+        </div>
+    </section>
+
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenid-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola me llamo Isaac.</span>Diseñador 
+                gráfico, community manager y actualmente 
+                también soy programador web freelancer, 
+                me especializo en maquetación, creación 
+                de marcas e identidad visual y diseño 
+                de logo tipos. Me gusta explorar y 
+                 poder probar diferentes estilos y formas 
+                 para mejorar cada vez más mis habilidades</p>
+                <div class="fila">
+                    <!--Datos personales-->
+                    <div class="col">
+                        <h3>Datos personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Teléfono</strong>
+                                +58-4129783677
+                            </li>
+                            <li>
+                                <strong>MÚsico</strong>
+                                Violista
+                            </li>
+                            <li>
+                                <strong>Contador</strong>
+                                cuarto semestre de la carrera
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                dexer1708@gmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Caracas, Venezuela
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Frelncer</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class='bx bx-game'></i>
+                                <span>Juegos</span>
+                            </div>
+                            <div class="interes">
+                                <i class='bx bxs-music'></i>
+                                <span>MÚsica</span>
+                            </div>
+                            <div class="interes">
+                                <i class='bx bx-exclude'></i>
+                                <span>Diseño</span>
+                            </div>
+                            <div class="interes">
+                                <i class='bx bx-code-block'></i>
+                                <span>html/css</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <a href="https:/dl.dropbox.com/s/nzhtr56r7yy2s2w/Portafolio.pdf" download="" style="color: white;">
+                    Descargar CV <i class='bx bxs-download' ></i>
+                    <span class="overlay"></span>
+                </a>
+                </button>
+        </div>
+
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--tecnica de skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ilustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!--cURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+
+                <!--texto de la izquierda-->
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Contaduria</h4>
+                        <span class="casa">Universidad IUJO</span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>TSU en contaduria, con habilidades de analisis financieros, manejo de los libros contables, plataformas, entre otras cosas.                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                            
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de diseño gráfico y community manager</h4>
+                        <span class="casa">Alpesinc</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Fundamentos del diseño como los elementos como la línea, el tamaño, la forma, la textura y el equilibrio Aprende. Disposición y composición, o layout para comunicar eficientemente una idea. teoría del color, branding o identidad corporativa y cuál es su importancia para una marca.
+                            Definir horas de publicación, seguimiento de las publicaciones, dar respuesta en una crisis y Relaciones públicas en Internet
+
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                            
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso excel</h4>
+                        <span class="casa">Curso de excel y programacion web</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Descripcion y manipulacion de libro, hja (etiqueta), celda, columna, fila, rango.Desplazamiento y seleccion en la hoja de calculo, Uso de los atajos del teclado, introduccion de datos. Copiar, cortar, pegar y mover celdas. Buscar valores.
+                            Formato de hojas, tablas, celdas, textos, numeros y fechas. Fuentes, bordes, alineacio, alto y ancho de celdas, filas y columnas, combinacion de celdas. Formato condicionales
+                            Creacion de graficos (Columnas, circulares, lineas)
+                            Formulas y funciones. Referemcias relativas y absolutas. Creacion de formulas. insercion de funciones en la hoja de calculo. funciones basicas. Aplicacion de funciones matematicas, estadisticas, de fecha y hora, de texto y logicas simples
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--texto de la derecha-->
+                <div class="col derecha">
+                    <h3>Experiencia y trabajo</h3>
+                    <div class="item der">
+                        <h4>Community y diseñador gráfico</h4>
+                        <span class="casa">Agencia de marketing (aleli bussines y filomedia)</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>Durante cuatro años he trabajado como diseñador gráfico y community manager para diferentes agencias de marketing digital. Esta experiencia me ha ayudado a desarrollar un amplio conocimiento en el diseño gráfico y el marketing digital.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>       
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Landing page</h4>
+                        <span class="casa">Leomir Tours</span>
+                        <span class="fecha">2023</span>
+                        <p>Creada en febrero del año 2023
+                            para una agencia de viajes y turismo
+                            con el fin de poder ofrecer sus una
+                            variedad de servicios.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>       
+                        </div>
+                    </div>
+                    <!--<div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>lorem ipsum no se que escribir pero 
+                            algo tengo que colocar para la plantilla
+                            entonces bueno creo qe con esto basta.
+                        </p>-->
+                        <div class="conectord">
+                            <div class="circulod"></div>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion portafolio-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/web.png" alt="">
+                    <div class="overlay">
+                        <h3>Pagina web</h3>
+                        <p>Blog, Landing page entre otros</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Claus.png" alt="">
+                    <div class="overlay">
+                        <h3>Ilustraciones</h3>
+                        <p>creativas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/untitled.png" alt="">
+                    <div class="overlay">
+                        <h3>Objetos 3D</h3>
+                        <p>Blender</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/hat--1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Maquetación</h3>
+                        <p>Mockup</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/duck.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Social Media</h3>
+                        <p>Identidad gráfica</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pizza.png" alt="">
+                    <div class="overlay">
+                        <h3>Creación de marca</h3>
+                        <p>Pizzeria</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <form id="form" method="post" action="1.php" class="form">
+                    <input type="text" name="nombre" placeholder="Tu nombre">
+                    <input type="text" name="phone" placeholder="Número telefónico">
+                    <input type="text" name="email" placeholder="Dirección de correo">
+                    <input type="text" name="tema" placeholder="Tema">
+                    <textarea name="textarea" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje<i class='bx bxs-paper-plane'></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                
+                </div>
+                <!--mapa-->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class='bx bx-current-location' ></i>
+                                Caracas Venezuela
+                            </li>
+                            <li>
+                                <i class='bx bxs-phone'></i>
+                                Llamame: +58-412-978-3677
+                            </li>
+                            <li>
+                                <i class='bx bxs-envelope' ></i>
+                                Email: dexer1708@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="animacion">
+            <ul>
+                <li style="--1:#71fd6c;--j:#2afd4d;">
+                    <span class="icon"><i class='bx bxl-whatsapp'></i></span>
+                    <span class="titulo"><a href="https://wa.me/584129783677" target="_blank" style="color: #ffffff;">Whatsapp</a></span>
+                   </li>
+                   <li style="--1:#f28f56;--j:#f3b711;">
+                      <span class="icon"><i class='bx bxl-gmail'></i></span>
+                      <span class="titulo"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" style="color: #ffffff;">Gmail</a></span>
+                   </li> 
+                   <li style="--1:#be6b94;--j:#b81034;">
+                      <span class="icon"><i class='bx bxl-instagram'></i></a></span>
+                      <span class="titulo"><a href="https://www.instagram.com/_isaacblog/" target="_blank" style="color: #ffffff;">Instagram</a></span>
+                   </li>
+                   <li style="--1:#72eaff;--j:#1ab7d3;">
+                      <span class="icon"><i class='bx bxl-twitter' ></i></span>
+                      <span class="titulo"><a href="https://twitter.com/_isaac_design" target="_blank" style="color: #ffffff;">Twitter</a></span>
+                   </li> 
+                   <li style="--1:#7274f8;--j:#1613d8;">
+                      <span class="icon"><i class='bx bxl-behance'></i></span>
+                      <span class="titulo"><a href="https://www.behance.net/isaaccontreras7" target="_blank" style="color: #ffffff;">Behance</a></span>
+                   </li>          
+                  </ul>
+       </div>
+       <a href="#inicio" class="arriba">
+        <i class='bx bx-chevrons-up'></i>
+    </a>
+        <!--<a href="#inicio" class="arriba">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class='bx bxl-whatsapp ' ></i></i></a>
+            <a href="#"><i class='bx bxl-gmail' ></i></a>
+            <a href="https://www.instagram.com/_isaacblog/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.behance.net/isaaccontreras7" target="_blank"><i class='bx bxl-behance' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>-->
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
